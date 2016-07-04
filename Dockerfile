@@ -26,7 +26,7 @@ RUN LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -qqy git cmake \
     libcurl4-gnutls-dev libpcre3-dev libpixman-1-dev libgdal-dev \
     libgeos-dev libsqlite3-dev libdb5.3-dev libtiff-dev \
     apache2 apache2-dev libfcgi-dev libdb5.3 db-util \
-    qgis-server libapache2-mod-fcgid \
+    qgis-server libapache2-mod-fcgid libfcgi-dev \
     cgi-mapserver libmapserver-dev mapserver-bin python-mapscript
 
 # Install Mapcache itself
