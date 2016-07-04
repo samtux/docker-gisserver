@@ -24,8 +24,8 @@ RUN LC_ALL=C DEBIAN_FRONTEND=noninteractive apt-get install -qqy git cmake \
     software-properties-common g++ make build-essential \
     libaprutil1-dev libapr1-dev libpng12-dev libjpeg-dev \
     libcurl4-gnutls-dev libpcre3-dev libpixman-1-dev libgdal-dev \
-    libgeos-dev libsqlite3-dev libdb-dev libtiff-dev \
-    apache2-dev libfcgi-dev db-util \
+    libgeos-dev libsqlite3-dev libdb5.3-dev libtiff-dev \
+    apache2 apache2-dev libfcgi-dev libdb5.3 db-util \
     qgis-server libapache2-mod-fcgid \
     cgi-mapserver libmapserver-dev mapserver-bin python-mapscript
 
