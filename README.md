@@ -19,5 +19,5 @@ $ docker build -t samtux/gisserver .
 ## Run
 
 ```
-$ docker run -d -p 8281:80 -v "$PWD/gisserver":/gisserver --name mapcache samtux/gisserver
+$ docker run -d -p 8281:80 -v "$PWD/gisdata":/gisdata -v config.xml:/mapcache/config.xml --name gisserver samtux/gisserver
 ```

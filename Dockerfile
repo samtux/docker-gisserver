@@ -86,8 +86,8 @@ RUN apt-get purge -y software-properties-common build-essential cmake ; \
     apt-get clean ; \
     rm -rf /var/lib/apt/lists/partial/* /tmp/* /var/tmp/*
 
-WORKDIR /gisdata
-VOLUME ["/gisdata/projects", "/gisdata/tiles"]
+WORKDIR /mapcache
+VOLUME ["/mapcache", "/gisdata/projects", "/gisdata/tiles"]
 
 EXPOSE 80
 
