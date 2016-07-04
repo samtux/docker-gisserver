@@ -13,7 +13,7 @@
    </cache>
    
    <cache name="sqlite" type="sqlite3">
-     <dbfile>/tmp/{tileset}-{z}-{grid}.db</dbfile>
+     <dbfile>/gisdata/{tileset}-{z}-{grid}.db</dbfile>
       <detect_blank/>
    </cache>
 
