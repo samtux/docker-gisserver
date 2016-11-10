@@ -16,7 +16,7 @@ ENV APACHE_PID_FILE /var/run/apache2/apache2.pid
 ENV PGSERVICEFILE /gisdata/projects/pg_service.conf
 ENV MAPCACHE_VERSION=1.4.0
 
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-key 3FF5FFCAD71472C4 && \
+RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-key 073D307A618E5811 && \
     echo "deb     http://qgis.org/debian xenial main" > /etc/apt/sources.list.d/qgis.list
 
 RUN apt-get update
