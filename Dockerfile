@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Samuel Fernando Mesa Giraldo <samuelmesa@gmail.com> 
 # Base: Yves Jacolin <yjacolin@free.fr>
 
-ENV VERSION 2016-07-04
+ENV VERSION 2017-03-08
 ENV TERM xterm
 ENV APACHE_CONFDIR /etc/apache2
 ENV APACHE_ENVVARS $APACHE_CONFDIR/envvars
@@ -14,7 +14,7 @@ ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV LANG C
 ENV APACHE_PID_FILE /var/run/apache2/apache2.pid
 ENV PGSERVICEFILE /gisdata/projects/pg_service.conf
-ENV MAPCACHE_VERSION=1.4.0
+ENV MAPCACHE_VERSION=1.4.1
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-key 073D307A618E5811 && \
     echo "deb     http://qgis.org/debian xenial main" > /etc/apt/sources.list.d/qgis.list
