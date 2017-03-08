@@ -6,8 +6,8 @@
 
 GIS Server in Ubuntu Xenial with Mpserver, Mapcache and QGIS Server.
 
-- Mapserver version 1.4.1
-- Mapcache version 7.0.4
+- Mapserver version 7.0.4
+- Mapcache version 1.4.1
 - QGIS Server v2.18.4
 
 ## Install
